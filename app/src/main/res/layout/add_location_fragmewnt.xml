@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/edit_profile_view"
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" >
+
+        <Button
+            android:id="@+id/add_location_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="52dp"
+            android:text="Add Location"
+            android:onClick="addLocation"/>
+
+        <EditText
+            android:id="@+id/add_location_name_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="180dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Location Name" />
+
+        <EditText
+            android:id="@+id/add_location_addresss_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="271dp"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/add_location_type_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginBottom="274dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Type" />
+    </RelativeLayout>
+
+</RelativeLayout>

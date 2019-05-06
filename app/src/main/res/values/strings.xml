@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cluster2</string>
+    <string name="my_profile">My Profile</string>
+    <string name="add_location">Add Location</string>
+    <string name="search">Search</string>
+</resources>
